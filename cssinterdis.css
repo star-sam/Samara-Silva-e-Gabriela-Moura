@@ -1,0 +1,35 @@
+body {
+    background-color: rgba(199, 204, 219);
+
+}
+
+
+.direita{
+    text-align: right;
+    font-size: medium; 
+}
+
+.centro{
+    text-align: center;
+}
+
+li{
+    display: inline;
+    margin:10px;
+}
+
+#menu{
+    text-align: center;
+}
+
+footer{
+    background-color:#7f97b8;
+}
+
+a{
+    color:#376294;
+
+}
+a:hover{
+    font-size:15px;
+}

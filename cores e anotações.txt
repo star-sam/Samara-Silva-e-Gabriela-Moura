@@ -1,0 +1,42 @@
+function exercicio() {
+    const palavras = ['sol', 'lua', 'estrela', 'mar', 'montanha', 'areia', 'floresta', 'rio', 'nuvem', 'sol', 'vento', 'areia'];
+    const palavraEspecifica = prompt("Digite uma palavra aleatoria")
+    let contagem = 0;
+    palavras.forEach(function (palavra) {
+        if (palavraEspecifica === palavra) {
+            contagem++
+        }
+ 
+    })
+    alert("A palavra se repete " + contagem + " vezes")
+}
+
+
+©TRABALHO ACADÊMICO SEM FINS LUCRATIVOS 
+
+
+<a href ="exercicio 1.html">exercicio 1</a>
+<a href ="exercicio 2.html">exercicio 2</a>
+<a href ="exercicio 3.html">exercicio 3</a>
+<a href ="exercicio 4.html">exercicio 4</a>
+<a href ="exercicio 5.html">exercicio 5</a>
+<a href ="exercicio 6.html">exercicio 6</a>
+<a href ="exercicio 7.html">exercicio 7</a>
+<a href ="exercicio 8.html">exercicio 8</a>
+<a href ="exercicio 9.html">exercicio 9</a>
+<a href ="exercicio 10.html">exercicio 10</a>
+
+
+
+cores 
+
+C7CCDB 199, 204, 219
+FF715B 255, 113, 91
+1A1D1A 26, 29, 26
+376294 55, 98, 148
+FCDC77 252, 220, 119
+
+
+
+
+<button onclick="exercicio()" id="menu">Iniciar</button>
